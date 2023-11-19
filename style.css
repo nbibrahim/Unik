@@ -1,0 +1,69 @@
+
+/* Reset some basic elements */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav .info-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav .info-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.chatbot-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: auto;
+    width: 60%;
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .chatbot-container {
+        width: 90%;
+    }
+}
